@@ -3,7 +3,7 @@
 <template>
  <main>
     <Nav />
-    <Sign />
+    <SignUp />
 
 
  </main>
@@ -12,12 +12,12 @@
 
 <script>
 import Nav from './components/Nav.vue';
-import Sign from './components/Home/SignUp.vue';
+import SignUp from './components/Home/SignUp.vue';
 
 export default {
   components: {
     Nav,
-    Sign
+    SignUp
   }
 }
 </script>
